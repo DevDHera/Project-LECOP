@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/DevDHera/Project-LECOP/blob/master/public/img/Logo/Logo_LECOP.jpg"></p>
+<p align="center"><img src="https://github.com/DevDHera/Project-LECOP/blob/master/public/img/Logo/Logo_LECOP_medium.jpg"></p>
 
 <p align="center">
 <a href="https://github.com/DevDHera/Project-LECOP/issues"><img alt="Issues" src="https://img.shields.io/github/issues/DevDHera/Project-LECOP.svg"></a>
