@@ -3,6 +3,7 @@
 <p align="center">
 <a href="https://github.com/DevDHera/Project-LECOP/issues"><img alt="Issues" src="https://img.shields.io/github/issues/DevDHera/Project-LECOP.svg"></a>
 <a href="https://github.com/DevDHera/Project-LECOP/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/DevDHera/Project-LECOP.svg"></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FDevDHera%2FProject-LECOP?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FDevDHera%2FProject-LECOP.svg?type=shield"/></a>
 
 </p>
 
@@ -102,6 +103,9 @@ See also the list of [contributors](https://github.com/DevDHera/Project-LECOP/gr
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/DevDHera/Project-LECOP/blob/master/LICENSE) file for details.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDevDHera%2FProject-LECOP.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDevDHera%2FProject-LECOP?ref=badge_large)
 
 ## Acknowledgments
 
