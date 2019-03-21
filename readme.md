@@ -105,6 +105,7 @@ See also the list of [contributors](https://github.com/DevDHera/Project-LECOP/gr
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/DevDHera/Project-LECOP/blob/master/LICENSE) file for details.
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/314c6b7bcd464a6e8f45d984978eef93)](https://app.codacy.com/app/DevDHera/Project-LECOP?utm_source=github.com&utm_medium=referral&utm_content=DevDHera/Project-LECOP&utm_campaign=Badge_Grade_Dashboard)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDevDHera%2FProject-LECOP.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDevDHera%2FProject-LECOP?ref=badge_large)
 
 ## Acknowledgments
