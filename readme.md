@@ -1,69 +1,108 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center">Project LECOP</p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://github.com/DevDHera/Project-LECOP/issues"><img alt="Issues" src="https://img.shields.io/github/issues/DevDHera/Project-LECOP.svg"></a>
+<a href="https://github.com/DevDHera/Project-LECOP/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/DevDHera/Project-LECOP.svg"></a>
+
 </p>
 
-## About Laravel
+# Project LECOP
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+Project LECOP is a Laravel based ECommerce platform. Current stage focuses heavily on the API development with tons of features like,
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* Stripe Integration
+* Email Verifications
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+and much more.
 
-## Learning Laravel
+## Getting Started
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+Getting started with the `Project LECOP` is easy.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+First clone the project.
 
-## Laravel Sponsors
+```sh
+git clone https://github.com/DevDHera/Project-LECOP.git
+```
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+Now head over to our [issue board](https://github.com/DevDHera/Project-LECOP/issues) and help solving :angel: 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
+### Prerequisites
+
+`Project LECOP` uses **[Vagrant](https://www.vagrantup.com/)** to manage Dev Environments.
+
+In order to successfully run the project install the following.
+
+* XAMPP | WAMP | LAMP
+* Composer
+* Virtual Box
+* Vagrant
+
+### Configurations
+
+After installing the above make sure to create `Homestead.yaml` file on the root of the project containg envs.
+
+Following is the structure that we are using.
+
+```yaml
+ip: 
+memory: 
+cpus: 
+provider: 
+authorize: 
+keys:
+    - 
+folders:
+    -
+        map: 
+        to: 
+sites:
+    -
+        map: 
+        to: 
+databases:
+    - 
+name: 
+hostname: 
+
+```
+
+## Deployment
+
+To deploy the API first you need to start the dev environment using the following command.
+
+```sh
+vagrant up
+```
+
+Then connet by using ssh.
+
+```sh
+vagrant ssh
+```
+
+No need to run `php artisan serve` commannds. 
+
+## Built With
+
+* [Laravel](https://laravel.com/) - The web framework used
+* [Composer](https://getcomposer.org/) - Dependency Management
+* [Vagrant](https://www.vagrantup.com/) - Used to manage Development Environments
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Please read [CODE_OF_CONDUCT.md](https://github.com/DevDHera/Project-LECOP/blob/master/CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Security Vulnerabilities
+## Authors
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+* **Devin Herath** - *Initial work* - [DevDHera](https://github.com/DevDHera)
+
+See also the list of [contributors](https://github.com/DevDHera/Project-LECOP/graphs/contributors) who participated in this project.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/DevDHera/Project-LECOP/blob/master/LICENSE) file for details.
+
+## Acknowledgments
+
+* [PurpleBooth](https://github.com/PurpleBooth) for this awesome README template :heart:
